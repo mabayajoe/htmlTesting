@@ -13,7 +13,7 @@ on:
         
 #AWS ECR Setup        
 jobs:
-  terraform:
+  htmlTesting:
     name: Terraform ECR Deployment
     runs-on: ubuntu-latest
     
