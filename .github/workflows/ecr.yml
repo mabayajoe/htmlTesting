@@ -31,8 +31,3 @@ jobs:
         with:
           mask-password: 'false'
 
-
-      - name: Build image to Amazon ECR
-        id: build-image
-        run: |
-          docker build -t ecr-repo .
